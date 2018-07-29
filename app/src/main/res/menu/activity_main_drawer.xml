@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myMatches"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/go_to_my_matches" />
+        <item
+            android:id="@+id/make_new_matches"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:checkable="false"
+            android:title="@string/make_a_new_match" />
+        <item
+            android:id="@+id/find_my_matches_on_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="@string/find_the_measures_on_map" />
+        <item
+            android:id="@+id/take_on_location_checker"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/location_checker_enabled" />
+
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_callback"
+                    android:icon="@android:drawable/ic_menu_send"
+                    android:title="@string/callback_to_developer" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

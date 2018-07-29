@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">ENVIRONMENT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_activity_introducing">Introducing</string>
+
+    <!-- Strings related to Settings -->
+    <string name="APP_PREFERENCES">Unity</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--Example names for toolbar-->
+    <string name="all_rights_reserved">All rights reserved</string>
+    <string name="WriteOnOpening">Last updated 10.05.2018</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="tools_nav">Tools</string>
+    <string name="accelerator_mode">Accelerator</string>
+
+    <!--Example names for errors-->
+    <string name="unknown_wrong">Something is not right! Try now!</string>
+    <string name="retry_now">Unregistered data! Try refresh now&#8230;</string>
+    <string name="points_ready">All points is ready!</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+
+    <!--Example names for viewPager-->
+    <string name="txt_screen_3">3-rd activity</string>
+    <string name="txt_screen_2">2-nd activity</string>
+    <string name="txt_screen_1">1-st activity</string>
+    <string name="get_started">Get started!</string>
+    <string name="Warning">Warning</string>
+    <string name="delete_all">Delete all matches</string>
+    <string name="all_will_deleted">All matches will be deleted without reply. Delete all?</string>
+    <string name="ok">OK</string>
+    <string name="understand">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="quite">Quite</string>
+    <string name="main_activity_name">Records list</string>
+    <string name="prefs">Preferences</string>
+    <string name="prefs_dialog">Here you can change your settings! Come on right now!</string>
+    <string name="gpslocation">Map navigation</string>
+    <string name="gpslocation_dialog">Here you can see and measure new coords on interactive map! Come on right now!</string>
+    <string name="accelerator">Accelerator AR measuring</string>
+    <string name="accelerator_dialog">Here you can take the real AR measurement and record new data on your storage! Come on right now!</string>
+    <string name="square_is">Square is:</string>
+    <string name="perimeter_is">Perimeter is:</string>
+    <string name="presents_first_slide">Measure the objects around you with the greatest accuracy</string>
+    <string name="presents_second_slide">Keep measurements and write notes about the work done</string>
+    <string name="presents_third_slide">share results and all sorts of tricks with colleagues</string>
+
+    <!--GPSLocationActivity-->
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Network</string>
+    <string name="location_settings">Location settings</string>
+    <string name="measureinfoactivityname">Measure data public info</string>
+    <string name="go_to_my_matches">My page</string>
+    <string name="make_a_new_match">New match</string>
+    <string name="find_the_measures_on_map">Measure on map</string>
+    <string name="location_checker_enabled">Target detecting</string>
+    <string name="active_information">Active information</string>
+    <string name="share_my_measures">Share my measures</string>
+    <string name="edit_themes">Edit themes</string>
+    <string name="callback_to_developer">Callback to developer</string>
+    <string name="must_have_permission_enabled">Check the enabled must have permission before using the \"ENVIRONMENT\"</string>
+    <string name="storage_permission_enabled">storage permission before using the \"ENVIRONMENT\"</string>
+    <string name="snack_bar_add_measure">Add a new measure now!</string>
+    <string name="checkTheLocationPermissions">Check the location providers enabled now!</string>
+    <string name="moveTheMarker">Move the marker to new position</string>
+    <string name="tapAgainToExit">Tap again to back from app</string>
+    <string name="et_card">Debit card</string>
+    <string name="et_pen">Pen</string>
+    <string name="et_book">Book</string>
+    <string name="selectTheEthalone">Select the reference object: </string>
+    <string name="bd_id">|_id:|</string>
+    <string name="bd_area">|area:|</string>
+    <string name="bd_perimeter">|perimeter:|</string>
+    <string name="bd_dots">|dots:|</string>
+
+
+    <!--Info productions values-->
+    <string name="type_measure">Type</string>
+    <string name="time_measure">Time</string>
+    <string name="perimeter_measure">Perimeter</string>
+    <string name="area_measure">Area</string>
+    <string name="percent_of_quality_measure">Quality percent</string>
+    <string name="place_measure">User place</string>
+    <string name="note_measure">*Note</string>
+    <string name="edit_measure_info">Now you can save or change the measure info for this record!\n
+    Select the comfortable action for you!</string>
+    <string name="save">Save</string>
+    <string name="dots">Nums of dots</string>
+
+    <string name="feedbacktype">Message type</string>
+    <string name="feedbacktype3">Complaint</string>
+    <string name="feedbacktype2">Sentence</string>
+    <string name="feedbacktype4">Error report</string>
+    <string name="emai_transfer">Select the email client: </string>
+    <string name="fill_in_all">Fill in all rows!</string>
+    <string name="your_name">Your name</string>
+    <string name="message_text">The text of message</string>
+    <string name="need_callback">Do you need to get a callback?</string>
+    <string name="send_message">Send the message</string>
+    <string name="clear_message">Clear the form</string>
+    <string name="referenceWasSet">Reference on size was set! Take the new measure!</string>
+    <string name="fix_this_position">fix this position</string>
+    <string name="layers">Layers</string>
+    <string name="satillite">Satellite</string>
+    <string name="satelliteAndInfo">Satellite and info</string>
+    <string name="autoMeasuring">Auto fixing mode</string>
+    <string name="takeOff">take off</string>
+    <string name="takeOn">take on</string>
+    <string name="layersSystem">Select the layers type</string>
+    <string name="ImHere">I\'m here!</string>
+    <string name="yourCurrentLocation">This is your current position</string>
+    <string name="note_row">Input other info about measure</string>
+    <string name="meter">m</string>
+    <string name="date">Date</string>
+    <string name="stop_and_quite">Stop and quite</string>
+    <string name="get_actual_data">Get actual measure</string>
+    <string name="left_normal">by left normal -</string>
+    <string name="right_normal">by right normal -</string>
+</resources>

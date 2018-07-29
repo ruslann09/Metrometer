@@ -1,0 +1,210 @@
+<resources>
+    <string name="app_name">ENVIRONMENT</string>
+
+    <string name="navigation_drawer_open">Открыть сновное меню</string>
+    <string name="navigation_drawer_close">Закрыть сновное меню</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_settings">Настройки инструментария</string>
+
+    <string name="title_activity_introducing">Знакомство</string>
+
+    <!-- Strings related to Settings -->
+    <string name="APP_PREFERENCES">Unity</string>
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Основное</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+
+    Example names for toolbar
+    <string name="all_rights_reserved">Все права защиены 2018©</string>
+    <string name="WriteOnOpening">Last updated 10.05.2018</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="tools_nav">Параметры</string>
+    <string name="accelerator_mode">Измерение в AR</string>
+
+    <!--Example names for errors-->
+    <string name="unknown_wrong">Что-то пошло не так! Попробуйте перезапустить сессию!</string>
+    <string name="retry_now">Попробуйте зайти заново! Перезапустите сессию&#8230;</string>
+    <string name="points_ready">Все точки установлены! Нажмите ещё раз для продолжения!</string>
+    <string name="edit">редактировать</string>
+    <string name="delete">удалить запись</string>
+
+    <!--Example names for viewPager-->
+    <string name="txt_screen_3">3-й экран</string>
+    <string name="txt_screen_2">2-й экран</string>
+    <string name="txt_screen_1">1-й экран</string>
+    <string name="get_started">Начать использование!</string>
+    <string name="Warning">Предупреждение</string>
+    <string name="delete_all">Удалить все записи</string>
+    <string name="all_will_deleted">Все записи в таблице будут удалены. Уверенны что хотите всё удалить?</string>
+    <string name="ok">Да</string>
+    <string name="understand">Понятно</string>
+    <string name="cancel">Вернуться назад</string>
+    <string name="quite">Выйти из приложения</string>
+    <string name="main_activity_name">Список измерений</string>
+    <string name="prefs">Настройки</string>
+    <string name="prefs_dialog">Здесь вы можете изменять свои настройки! Начните подстраивать приложение прямо сейчас!</string>
+    <string name="gpslocation">Карта навигаций</string>
+    <string name="gpslocation_dialog">Здесь вы можете находить своё местоположение, а также измерять периметр и площадь зафданного пространства!\n
+    Для этого вы можете применять различные настройки в контекстном меню, которое откроется при долгом зажатии экрана.\n
+        Начните прямо сейчас!</string>
+    <string name="accelerator">Измерение в AR пространстве</string>
+    <string name="accelerator_dialog">Здесь вы можете измерить окружающее пространство с наибольшей точностью, а также узнать углы и многое другое!\n
+    Начните свои измерения в дополненной реальности!</string>
+    <string name="square_is">Площаь пространства:</string>
+    <string name="perimeter_is">Периметр поверхности:</string>
+    <string name="presents_first_slide">измеряйте окружающие вас объекты с наибольшей точностью</string>
+    <string name="presents_second_slide">сохраняйте измерения и составляйте заметки о выполненной работе</string>
+    <string name="presents_third_slide">делитесь результатами и всевозможными хитростями с коллегами</string>\
+
+    <!--GPSLocationActivity-->
+    <string name="provider_gps">Системы спутниковой навигации</string>
+    <string name="provider_network">Соединение по сети интернет</string>
+    <string name="location_settings">Настройки локационного расположения</string>
+    <string name="measureinfoactivityname">Информация об измерении</string>
+    <string name="go_to_my_matches">Мои записи</string>
+    <string name="make_a_new_match">AR - измерение</string>
+    <string name="find_the_measures_on_map">Измерение на карте</string>
+    <string name="location_checker_enabled">Обнаружение локации</string>
+    <string name="active_information">Информация активности</string>
+    <string name="share_my_measures">Поделиться измерениями</string>
+    <string name="edit_themes">Изменить тему</string>
+    <string name="callback_to_developer">Связаться с нами</string>
+    <string name="must_have_permission_enabled">Проверьте доступность разрешений у приложения в настройках \"ENVIRONMENT\"</string>
+    <string name="storage_permission_enabled">Включите разрешение к хранилищу \"ENVIRONMENT\"</string>
+    <string name="snack_bar_add_measure">Добавить новое измерение!</string>
+    <string name="checkTheLocationPermissions">Проверьте доступность провайдеров GPS и Network для определения месторасположения!</string>
+    <string name="moveTheMarker">Переместите маркер на новую позицию</string>
+    <string name="tapAgainToExit">Нажмите ещё раз для выхода из приложения</string>
+    <string name="et_card">Карта</string>
+    <string name="et_pen">Ручка</string>
+    <string name="et_book">Книга</string>
+    <string name="selectTheEthalone">Выберите эталонный объект</string>
+    <string name="bd_id">|_id:|</string>
+    <string name="bd_area">|площадь:|</string>
+    <string name="bd_perimeter">|периметр:|</string>
+    <string name="bd_dots">|точки:|</string>
+
+    <!--Info productions values-->
+    <string name="type_measure">Тип</string>
+    <string name="time_measure">Время</string>
+    <string name="perimeter_measure">Периметр</string>
+    <string name="area_measure">Площадь</string>
+    <string name="percent_of_quality_measure">Процент точности</string>
+    <string name="place_measure">Место</string>
+    <string name="note_measure">*Заметка</string>
+    <string name="edit_measure_info">Сейчас вы можете сохранить или удалить информацию данной записи!\n
+    Выберите нужное вам решение!</string>
+    <string name="save">Сохранить</string>
+    <string name="dots">Число точек</string>
+
+    <string name="feedbacktype">Тип сообщения</string>
+    <string name="feedbacktype3">Жалоба</string>
+    <string name="feedbacktype2">Предложение</string>
+    <string name="feedbacktype4">Отчет об ошибке</string>
+    <string name="emai_transfer">Воспользуйтесь одним из сервисов: </string>
+    <string name="fill_in_all">Заполните все поля перед отправкой!</string>
+    <string name="your_name">Как вас зовут?</string>
+    <string name="message_text">Введите текст сообщения сюда</string>
+    <string name="need_callback">Хотите получить потверждение изменения?</string>
+    <string name="send_message">Отправить сообщение</string>
+    <string name="clear_message">Отчистить форму</string>
+    <string name="referenceWasSet">Эталонный объект был успешно установлен!\n Теперь вы можете проводить измерения!</string>
+    <string name="fix_this_position">Зафиксировать местоположение</string>
+
+    <string name="layers">Разметка</string>
+    <string name="satillite">Спутник</string>
+    <string name="satelliteAndInfo">Снимки со спутника и информация</string>
+    <string name="autoMeasuring">Режим авто-измерения позиции</string>
+    <string name="takeOff">выключть</string>
+    <string name="takeOn">включить</string>
+    <string name="layersSystem">Выберите принцип оторажения</string>
+    <string name="ImHere">Я тут!</string>
+    <string name="yourCurrentLocation">Это ваша текущая позиция</string>
+    <string name="note_row">Напишите сюда любую подсказку поиска</string>
+    <string name="meter">м</string>
+    <string name="date">Дата</string>
+    <string name="stop_and_quite">Закончить и сохранить</string>
+    <string name="get_actual_data">Получить актуальные замеры</string>
+    <string name="left_normal">левая нормаль -</string>
+    <string name="right_normal">правая нормаль -</string>
+</resources>

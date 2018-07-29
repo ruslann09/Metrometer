@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#638ca1</color>
+    <color name="colorPrimaryDark">#558096</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="navigation_bar_background">#343642</color>
+    <color name="activity_main_background_light">#acafb7</color>
+    <color name="activity_main_dark_gold">#b99b4c</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="measure_mono_type">#90c1d4</color>
+    <color name="onGifCirclesBackground">#201e1e</color>
+    <color name="FirstIntroSlide">#8244ff</color>
+    <color name="SecondIntroSlide">#44ff57</color>
+    <color name="ThirdIntroSlide">#f0ab13</color>
+    <color name="developerPage">#ff9965</color>
+    <color name="developerPageBtn">#5c95f7</color>
+    <color name="TextHighlight">#d0d0d0</color>
+    <color name="MeasureTextHighlight">#bdffdc</color>
+    <color name="dateColor">#6276a1</color>
+</resources>
